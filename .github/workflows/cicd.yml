@@ -1,0 +1,36 @@
+name: CICD
+
+on:
+  push:
+    branches:
+      - test1
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v3
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_ID }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build Docker Image
+        run: sudo docker build -t thehkv/frontend .
+      - name: Tag Image in Docker Hub
+        run: sudo docker tag thehkv/frontend thehkv/frontend:latest
+      - name: Push Image to Docker Hub
+        run: docker push thehkv/frontend:latest
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull image from Docker Hub
+        run: sudo docker pull thehkv/frontend:latest
+      - name: Delete Old Container
+        run: sudo docker rm -f reactContainer
+      - name: Run Docker Container
+        run: sudo docker run -d --name reactContainer -p 3000:3000 thehkv/frontend
