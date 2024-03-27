@@ -1,0 +1,43 @@
+// @import '../../assets/styles/variable';
+
+.signup-form-grid {
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 40rem) {
+  .signup-form-grid {
+    // width: $pageLeftPartitionOnSmallSccreen;
+  }
+}
+
+@media screen and (min-width: 40.1rem) {
+  .signup-form-grid {
+    // width: $pageLeftPartitionSize;
+  }
+}
+
+.topicon-digicare{
+  width: 200px;
+  height: 200px;
+
+}
+.signup-form-grid{
+    background-image: url("../../../public/background.jpg");
+      background-position: 50%;
+      background-size: cover;
+      height: 100vh;
+}
+
+.sign-tile-data{
+display: block;
+  font-size: 30px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#demo-radio-buttons-group-label {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-left: -13rem;
+}

@@ -1,0 +1,33 @@
+@import "../../assets/styles/variable";
+
+.avatar-in-pop-over {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: row !important;
+  width: 100%;
+}
+
+.avatar-pop-over-buttons-grid {
+  display: flex;
+  flex-direction: column;
+  background-color: $offwhite;
+}
+
+.avatar-pop-over-details-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100%;
+}
+
+.avatar-pop-over-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  // line-height: 0rem !important;
+}
+
+.avatar-pop-over-details p {
+  margin: 0.5rem 0.5rem !important;
+  font-size: 1.2rem;
+}

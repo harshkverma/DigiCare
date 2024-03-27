@@ -1,0 +1,67 @@
+@import "/src/assets/styles/variable";
+
+.history-record-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  max-width: max-content;
+}
+
+// .history-record-text-title {
+//   font-weight: 700 !important;
+// }
+
+//new changes
+/* style.scss */
+.history-container {
+  display: flex;
+  flex-direction: row;
+
+  .MuiPaper-root {
+    background-image: linear-gradient(to bottom right, $componetbackground, white);
+    color: white;
+    margin-bottom: 10px;
+
+    .MuiAccordionSummary-root {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    }
+
+    .MuiAccordionDetails-root {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .history-record-text-wrapper {
+    padding: 10px;
+    color: black;
+  }
+
+  .history-record-text-title {
+    color: black;
+    font-size: 2rem;
+  }
+}
+
+.summary-accoidian-heading {
+  color: black;
+  font-size: 1.5rem !important;
+}
+
+.body-data-accordian {
+  color: black;
+  font-size: 2rem !important;
+}
+
+.real-constants-history-auto-complete {}
+
+.real-constants-history-graph-setting-container {
+  box-shadow: 0.2rem 0rem 2rem 0rem #809cde;
+  margin: 4rem 0rem 0rem 4rem !important;
+  padding-right: 2rem;
+  padding-left: 2rem !important;
+}

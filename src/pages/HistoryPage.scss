@@ -1,0 +1,44 @@
+.history-page {
+  padding: 20px;
+}
+
+.history-box {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: height 0.3s;
+  overflow: hidden;
+}
+
+.history-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.expanded {
+  height: 200px; /* Set an appropriate height for the expanded box */
+}
+
+.parameter-box-vertical {
+  margin-bottom: 16px; // Adjust the margin as needed
+}
+
+.expanded-content {
+  margin-top: 10px;
+}
+
+.parameter-box {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* historyPage.scss */
+
+.parameter-box-vertical {
+  display: flex;
+  flex-direction: column; // Set to column to display items vertically
+  align-items: flex-start; // Align items to the start of the box
+  margin-bottom: 16px; // Adjust the margin as needed
+}

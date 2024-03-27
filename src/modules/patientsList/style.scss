@@ -1,0 +1,33 @@
+.patient-list-grid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.patient-list-detail-grid {
+  margin: 4rem;
+  cursor: pointer;
+}
+
+.patient-list-patient-name {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  padding: 1rem;
+}
+
+.patient-list-auto-complete {
+  margin-left: auto;
+}
+
+.patient-no-list-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.digicare-loader-patient-list {
+  margin: auto;
+  margin-top: 3rem;
+}

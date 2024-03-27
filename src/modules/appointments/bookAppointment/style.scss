@@ -1,0 +1,59 @@
+@import "../../../assets/styles/variable";
+.book-an-appointment-date-picker {
+  width: -webkit-fill-available;
+}
+
+//new changes
+
+.appointment-container {
+  padding: 20px;
+    background-image: linear-gradient(to bottom right, $componetbackground, white);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  .select-label{
+      color: black;
+        font-weight: bold;
+  }
+  .MuiFormControl-root {
+    margin-bottom: 20px;
+  }
+        .MuiSelect-select{
+        border: 1px solid black;
+        color: black;
+        font-weight: bold;
+    }
+
+  .book-an-appointment-date-picker {
+    width: 100%;
+  }
+
+  .MuiTextField-root {
+    margin-bottom: 20px;
+    width: 100%;
+
+    label {
+      color: black;
+      font-weight: bold;
+    }
+
+    input {
+      border: 1px solid black;  
+      border-radius: 4px;
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: #85b7d9;
+      }
+    }
+  }
+
+  .MuiButton-root {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}

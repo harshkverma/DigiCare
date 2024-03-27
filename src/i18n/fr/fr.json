@@ -1,0 +1,10 @@
+{
+  "Welcome": {
+    "text": "Bienvenue sur cette application d'internationalisation React"
+  },
+  "interpolation_pluralization": {
+    "text_one": "Il n'y a qu'un seul article à ce sujet",
+    "text_other": "Il y a {{count}} articles sur ce sujet"
+  },
+  "date": "Aujourd'hui, nous sommes le {{date, DATE_HUGE}}"
+}

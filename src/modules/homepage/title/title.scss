@@ -1,0 +1,10 @@
+@import "../../../assets/styles/variable";
+
+.digicare-nav-title {
+  font-size: 2rem !important;
+  letter-spacing: 0.2rem;
+  color: $navbarTitleColor;
+  font-weight: 700;
+  background-color: $navbarTitleBackgroundColor;
+  cursor: pointer;
+}

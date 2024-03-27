@@ -1,0 +1,58 @@
+import { EGender } from "../context/interface";
+import { IDoctorHistory } from "../modules/doctorHistory/interface";
+
+export const PatientDoctorHistory: Array<string> = ["arun_tyagi", "asha_negi"];
+
+export const doctorData: IDoctorHistory[] = [
+  {
+    patients: [],
+    user_name: "arun_tyagi",
+    name: "Dr. Arun Tyagi",
+    Hospital: "Madanta",
+    treatments: ["Cardiac Attack"],
+    registration_date: "3/6/2024, 6:50:47 PM",
+    start_date: "3/6/2024, 6:50:47 PM",
+    end_date: "3/9/2024, 6:50:47 PM",
+    specialization: ["Surgon"],
+    study_history: ["MBBS", "MD"],
+    contact_number: "+1(382)-880-1789",
+    assistant_id: "657890",
+    age: 60,
+    gender: EGender.male,
+    year_of_practice: 20,
+    assosiated_with: [
+      { type: "On Contract", hospital: "Healthy Hospital" },
+      { type: "Full-Time", hospital: "Madanta" },
+    ],
+    availability_hours: ["9:00 AM -12:00 PM", "7:00 PM - 9:00 PM"],
+    ongoing_treatment: true,
+    profile_pic: "doctor.jpeg",
+    email: "arun@gmail.com",
+    address: "MNB, Windsor, Canada",
+    role: "doctor",
+  },
+  {
+    patients: [],
+    name: "Dr. Aasha Negi",
+    user_name: "asha_negi",
+    Hospital: "AAIMS",
+    treatments: ["Fever"],
+    registration_date: "12/24/2023, 6:50:47 PM",
+    start_date: "12/24/2023, 6:50:47 PM",
+    end_date: "12/24/2023, 7:15:15 PM",
+    specialization: [],
+    study_history: ["MBBS"],
+    contact_number: "+1(382)-880-0995",
+    assistant_id: null,
+    age: 40,
+    gender: EGender.female,
+    year_of_practice: 5,
+    assosiated_with: [{ type: "Full-Time", hospital: "AAIMS" }],
+    availability_hours: ["9:00 AM - 6:00 PM"],
+    ongoing_treatment: false,
+    profile_pic: "doctor2.jpeg",
+    email: "aasha@gmail.com",
+    address: "JKL, Windsor, Canada",
+    role: "doctor",
+  },
+];

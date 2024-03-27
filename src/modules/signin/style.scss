@@ -1,0 +1,59 @@
+// @import '../../assets/styles/variable';
+
+.signin-form-grid {
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 40rem) {
+  .signin-form-grid {
+    // width: $pageLeftPartitionOnSmallSccreen;
+  }
+}
+
+@media screen and (min-width: 40.1rem) {
+  .signin-form-grid {
+    // width: $pageLeftPartitionSize;
+  }
+}
+
+.topicon-digicare {
+  width: 200px;
+  height: 200px;
+
+}
+.sing-button-data {
+  background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+  width: 50%;
+}
+
+.signin-form-grid {
+
+  background-image: url("../../../public/background.jpg");
+    background-position: 50%;
+      background-size: cover;
+      height: 100vh;
+
+}
+.signin-box{
+  background: white;
+}
+.sign-tile-data {
+  display: block;
+  font-size: 30px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#demo-radio-buttons-group-label-role {
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  margin-left: -4rem;
+}
+
+.role-form-control {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+}

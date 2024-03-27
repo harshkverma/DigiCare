@@ -1,0 +1,59 @@
+// colors with names
+$white: #fff;
+$offwhite: #f9f9f9;
+$lightgrey: lightgrey;
+$lime: #b1da20;
+$red: #c41422;
+$black: #000;
+$darkRedColor: rgba(117, 19, 93, 0.73);
+$lessDarkRedColor: rgba(222, 160, 206, 0.73);
+$blackShadowColor: #2d2a2a;
+$fontWeight500: 500;
+$fontWeight700: 700;
+
+//colors as per modules
+$homePageBackGroundColor: #030202;
+$homePageBackgroundLinearGradient: linear-gradient(
+  326deg,
+  rgba(245, 246, 252, 0.52) 0%,
+  rgba(117, 19, 93, 0.73) 74%
+);
+$mainTitleColor: $white;
+$homePageSubTitleColor: $lime;
+$hamburgerBackgroundColor: $darkRedColor;
+$hamburgerItemHoverColor: $lessDarkRedColor;
+$generalBoxShadow: 0.2rem 0rem 2rem 0rem $blackShadowColor;
+$dashboardLeftMenuBgColor: $offwhite;
+$dashBoardRightMenuBgColor: $offwhite;
+$dashboardFeedBgColor: $white;
+$realTimeCardColor: #cdeef6;
+$navbarTitleColor: #88b5ea;
+$navbarTitleBackgroundColor: #1976d2;
+
+// size of an element
+$mainTitleSize: 6rem;
+$textSize: 1.5rem;
+$mainTitleAnimationStartPosition: -8rem;
+$mainTitleAnimationEndPosition: 0rem;
+$smallIconSize: 2rem;
+$mediumIconSize: 3rem;
+$largeIconSize: 4rem;
+$realTimeCardWidth: 35rem;
+$realTImeCardHeight: 15rem;
+$navbarWidth: 24rem;
+$doctorHistoryTableHeight: 44rem;
+
+//font-weight
+$mainTitleWeight: $fontWeight700;
+$homepageSubTitleWeight: $fontWeight500;
+
+//z-index
+$hamburgerBarZIndex: 1000;
+$mainImageZIndex: 1001;
+
+//time
+$slideInAnimationTime: 2000;
+$slideInAnimationTimeMS: 2000ms;
+
+//background Component
+$componetbackground: #9bc2e9

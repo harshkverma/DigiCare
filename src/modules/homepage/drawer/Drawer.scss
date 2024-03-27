@@ -1,0 +1,29 @@
+@import "../../../assets/styles/variable";
+
+.doctor-details {
+  text-align: center;
+  margin: 0 auto;
+  // padding: 10px;
+}
+
+.doctor-image {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.navbar-router-text {
+  color: $lightgrey;
+}
+
+.avatar-position {
+  margin-left: auto;
+}
+
+.digicare-logo {
+  width: 25rem;
+  height: 25rem;
+}
+
+
+
