@@ -3,7 +3,7 @@ name: CICD
 on:
   push:
     branches:
-      - test1
+      - main
 
 
 jobs:
