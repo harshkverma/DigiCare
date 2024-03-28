@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DigiCare/static/css/main.144e54f0.css",
+    "main.js": "/DigiCare/static/js/main.a8c6c9fc.js",
+    "static/js/845.2f7ca4e6.chunk.js": "/DigiCare/static/js/845.2f7ca4e6.chunk.js",
+    "static/media/background.jpg": "/DigiCare/static/media/background.da719f3ba386cf44c3d8.jpg",
+    "static/media/contactUs.jpg": "/DigiCare/static/media/contactUs.df08d23b593ab9a37efc.jpg",
+    "index.html": "/DigiCare/index.html",
+    "main.144e54f0.css.map": "/DigiCare/static/css/main.144e54f0.css.map",
+    "main.a8c6c9fc.js.map": "/DigiCare/static/js/main.a8c6c9fc.js.map",
+    "845.2f7ca4e6.chunk.js.map": "/DigiCare/static/js/845.2f7ca4e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.144e54f0.css",
+    "static/js/main.a8c6c9fc.js"
+  ]
+}
